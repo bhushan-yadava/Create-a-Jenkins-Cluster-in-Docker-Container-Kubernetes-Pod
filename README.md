@@ -17,11 +17,11 @@ This project demonstrates how to manually install Jenkins in Docker (without pre
 
 ## Commands Used in This Project
 # -------------------------------
-# ✅ Jenkins Agent Docker Image
+✅ Jenkins Agent Docker Image
 # -------------------------------
 cd jenkins-agent
 
-# Build agent image
+ Build agent image
 docker build -t jenkins-agent-custom .
 
 # Load agent image into Minikube
